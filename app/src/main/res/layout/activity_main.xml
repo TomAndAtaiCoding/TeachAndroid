@@ -10,49 +10,88 @@
     <TextView
         android:id="@+id/textViewMain"
         android:layout_width="match_parent"
-        android:layout_height="113dp"
-        android:text="@string/textViewMain_text" />
+        android:layout_height="100dp"
+        android:text="@string/textViewMain_text"
+        android:gravity="center" />
 
     <Button
-        android:id="@+id/dialogueRedirect"
+        android:id="@+id/layoutRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="@string/dialogueRedirect_text" />
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/layoutRedirect_text" />
 
     <Button
         android:id="@+id/intentRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
         android:text="@string/intentRedirect_text" />
+
+    <Button
+        android:id="@+id/dialogueRedirect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/dialogueRedirect_text" />
+
+    <Button
+        android:id="@+id/menuRedirect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/menuRedirect_text" />
+
+    <Button
+        android:id="@+id/advancedDialogueRedirect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/advancedDialogueRedirect_text" />
 
     <Button
         android:id="@+id/sharedPreferencesRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
         android:text="@string/sharedPreferencesRedirect_text" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/contentProvidersRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="Button" />
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/contentProvidersRedirect_text" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/phoneComponentsRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="Button" />
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/phoneComponentsRedirect_text" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/listViewRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="Button" />
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/listViewRedirect_text" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/dynamicCodeRedirect"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="Button" />
+        android:layout_height="60dp"
+        android:insetLeft="6dp"
+        android:insetRight="6dp"
+        android:text="@string/dynamicCodeRedirect_text" />
 
 </LinearLayout>

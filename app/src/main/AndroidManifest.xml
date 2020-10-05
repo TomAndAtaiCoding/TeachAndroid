@@ -14,6 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeachApp">
         <activity android:name=".MainActivity"></activity>
+        android:theme="@style/Theme.TeachApp">
+        <activity android:name=".ConversationExplanationActivity"></activity>
+        <activity android:name=".ConversationBoxActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
         <uses-library
             android:name="com.google.android.wearable"

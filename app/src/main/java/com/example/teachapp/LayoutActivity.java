@@ -9,6 +9,6 @@ public class LayoutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_layouts);
+        setContentView(R.layout.activity_layouts_linear);
     }
 }

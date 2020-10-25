@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textViewMain"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="124dp"
         android:text="@string/textViewMain_text"
         android:gravity="center" />
 
@@ -31,12 +31,12 @@
         android:text="@string/intentRedirect_text" />
 
     <Button
-        android:id="@+id/dialogueRedirect"
+        android:id="@+id/conversationBoxRedirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/dialogueRedirect_text" />
+        android:text="@string/conversationBoxRedirect_text" />
 
     <Button
         android:id="@+id/menuRedirect"
@@ -47,12 +47,12 @@
         android:text="@string/menuRedirect_text" />
 
     <Button
-        android:id="@+id/advancedDialogueRedirect"
+        android:id="@+id/dialogueRedirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/advancedDialogueRedirect_text" />
+        android:text="@string/dialogueRedirect_text" />
 
     <Button
         android:id="@+id/sharedPreferencesRedirect"

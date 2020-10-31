@@ -8,17 +8,39 @@
     <string name="hello_world">Hello Square World!</string>
 
     <!-- Main Page -->
-    <string name="textViewMain_text">[insert description here]</string> <!-- text shown at the start of the application, in the main menu. -->
-    <string name="layoutRedirect_text">layout tutorial</string>
-    <string name="intentRedirect_text">intents tutorial</string>
-    <string name="conversationBoxRedirect_text">conversation box tutorial </string>
-    <string name="menuRedirect_text">menu tutorial</string>
-    <string name="dialogueRedirect_text">dialogue tutorial</string>
-    <string name="sharedPreferencesRedirect_text">shared preferences tutorial</string>
-    <string name="contentProvidersRedirect_text">content providers tutorial</string>
-    <string name="phoneComponentsRedirect_text">phone components tutorial</string>
-    <string name="listViewRedirect_text">listview tutorial</string>
-    <string name="dynamicCodeRedirect_text">dynamic code tutorial</string>
+    <string name="text_main_intro_text">[insert description here]</string> <!-- text shown at the start of the application, in the main menu. -->
+    <string name="button_layout_redirect_text">layout tutorial</string>
+    <string name="button_intent_redirect_text">intents tutorial</string>
+    <string name="button_conversation_box_redirect_text">conversation box tutorial </string>
+    <string name="button_menu_redirect_text">menu tutorial</string>
+    <string name="button_dialogue_redirect_text">dialogue tutorial</string>
+    <string name="button_shared_preferences_redirect_text">shared preferences tutorial</string>
+    <string name="button_content_providers_redirect_text">content providers tutorial</string>
+    <string name="button_phone_components_redirect_text">phone components tutorial</string>
+    <string name="button_list_view_redirect_text">listview tutorial</string>
+    <string name="button_dynamic_code_redirect_text">dynamic code tutorial</string>
 
+    <!-- Layout Tutorial -->
+    <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts. אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן "לעגן" כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
+    <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
+    <string name="text_layouts_intro3_text">בצורה נוחה ויפה מאוד.</string>
+
+    <!-- Intents Tutorial -->
+
+    <!-- Conversation Box Tutorial -->
+
+    <!-- Menu Tutorial -->
+
+    <!-- Dialogue Tutorial -->
+
+    <!-- Shared Preferences Tutorial -->
+
+    <!-- Content Providers Tutorial -->
+
+    <!-- Phone Components Tutorial -->
+
+    <!-- List View Tutorial -->
+
+    <!-- Dynamic Code Tutorial -->
 
 </resources>

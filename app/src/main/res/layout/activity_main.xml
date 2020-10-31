@@ -8,90 +8,90 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textViewMain"
+        android:id="@+id/text_main_intro"
         android:layout_width="match_parent"
         android:layout_height="124dp"
-        android:text="@string/textViewMain_text"
+        android:text="@string/text_main_intro_text"
         android:gravity="center" />
 
     <Button
-        android:id="@+id/layoutRedirect"
+        android:id="@+id/button_layout_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/layoutRedirect_text" />
+        android:text="@string/button_layout_redirect_text" />
 
     <Button
-        android:id="@+id/intentRedirect"
+        android:id="@+id/button_intent_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/intentRedirect_text" />
+        android:text="@string/button_intent_redirect_text" />
 
     <Button
-        android:id="@+id/conversationBoxRedirect"
+        android:id="@+id/button_conversation_box_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/conversationBoxRedirect_text" />
+        android:text="@string/button_conversation_box_redirect_text" />
 
     <Button
-        android:id="@+id/menuRedirect"
+        android:id="@+id/button_menu_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/menuRedirect_text" />
+        android:text="@string/button_menu_redirect_text" />
 
     <Button
-        android:id="@+id/dialogueRedirect"
+        android:id="@+id/button_dialogue_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/dialogueRedirect_text" />
+        android:text="@string/button_dialogue_redirect_text" />
 
     <Button
-        android:id="@+id/sharedPreferencesRedirect"
+        android:id="@+id/button_shared_preferences_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/sharedPreferencesRedirect_text" />
+        android:text="@string/button_shared_preferences_redirect_text" />
 
     <Button
-        android:id="@+id/contentProvidersRedirect"
+        android:id="@+id/button_content_providers_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/contentProvidersRedirect_text" />
+        android:text="@string/button_content_providers_redirect_text" />
 
     <Button
-        android:id="@+id/phoneComponentsRedirect"
+        android:id="@+id/button_phone_components_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/phoneComponentsRedirect_text" />
+        android:text="@string/button_phone_components_redirect_text" />
 
     <Button
-        android:id="@+id/listViewRedirect"
+        android:id="@+id/button_list_view_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/listViewRedirect_text" />
+        android:text="@string/button_list_view_redirect_text" />
 
     <Button
-        android:id="@+id/dynamicCodeRedirect"
+        android:id="@+id/button_dynamic_code_redirect"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:text="@string/dynamicCodeRedirect_text" />
+        android:text="@string/button_dynamic_code_redirect_text" />
 
 </LinearLayout>

@@ -3,7 +3,6 @@ package com.example.teachapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,16 +12,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button layoutRedirect = findViewById(R.id.layoutRedirect);
-        final Button intentRedirect = findViewById(R.id.intentRedirect);
-        final Button conversationBoxRedirect = findViewById(R.id.conversationBoxRedirect);
-        final Button menuRedirect = findViewById(R.id.menuRedirect);
-        final Button dialogueRedirect = findViewById(R.id.dialogueRedirect);
-        final Button sharedPreferencesRedirect = findViewById(R.id.sharedPreferencesRedirect);
-        final Button contentProvidersRedirect = findViewById(R.id.contentProvidersRedirect);
-        final Button phoneComponentRedirect = findViewById(R.id.phoneComponentsRedirect);
-        final Button listViewRedirect = findViewById(R.id.listViewRedirect);
-        final Button dynamicCodeRedirect = findViewById(R.id.dynamicCodeRedirect);
+        final Button layoutRedirect = findViewById(R.id.button_layout_redirect);
+        final Button intentRedirect = findViewById(R.id.button_intent_redirect);
+        final Button conversationBoxRedirect = findViewById(R.id.button_conversation_box_redirect);
+        final Button menuRedirect = findViewById(R.id.button_menu_redirect);
+        final Button dialogueRedirect = findViewById(R.id.button_dialogue_redirect);
+        final Button sharedPreferencesRedirect = findViewById(R.id.button_shared_preferences_redirect);
+        final Button contentProvidersRedirect = findViewById(R.id.button_content_providers_redirect);
+        final Button phoneComponentRedirect = findViewById(R.id.button_phone_components_redirect);
+        final Button listViewRedirect = findViewById(R.id.button_list_view_redirect);
+        final Button dynamicCodeRedirect = findViewById(R.id.button_dynamic_code_redirect);
 
         layoutRedirect.setOnClickListener(v -> setContentView(R.layout.activity_layouts_intro));
         intentRedirect.setOnClickListener(v -> setContentView(R.layout.activity_intents));

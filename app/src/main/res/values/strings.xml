@@ -40,6 +40,8 @@
     <!-- Phone Components Tutorial -->
 
     <!-- List View Tutorial -->
+    <string name="listViewInputPrompt">value 1, value 2, value3…</string>
+    <string name="listViewButtonText">Update List</string>
 
     <!-- Dynamic Code Tutorial -->
 

@@ -2,6 +2,7 @@ package com.example.teachapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -23,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
         final Button listViewRedirect = findViewById(R.id.button_list_view_redirect);
         final Button dynamicCodeRedirect = findViewById(R.id.button_dynamic_code_redirect);
 
-        layoutRedirect.setOnClickListener(v -> setContentView(R.layout.activity_layouts_intro));
-        intentRedirect.setOnClickListener(v -> setContentView(R.layout.activity_intents));
-        conversationBoxRedirect.setOnClickListener(v -> setContentView(R.layout.activity_conversation_box));
-        menuRedirect.setOnClickListener(v -> setContentView(R.layout.activity_menu));
-        dialogueRedirect.setOnClickListener(v -> setContentView(R.layout.activity_dialogue));
-        sharedPreferencesRedirect.setOnClickListener(v -> setContentView(R.layout.activity_shared_preferences));
-        contentProvidersRedirect.setOnClickListener(v -> setContentView(R.layout.activity_content_providers));
-        phoneComponentRedirect.setOnClickListener(v -> setContentView(R.layout.activity_phone_components));
-        listViewRedirect.setOnClickListener(v -> setContentView(R.layout.activity_listview));
-        dynamicCodeRedirect.setOnClickListener(v -> setContentView(R.layout.activity_dynamic_code));
+        layoutRedirect.setOnClickListener(v -> startActivity(new Intent(this, LayoutActivity.class)));
+        intentRedirect.setOnClickListener(v -> startActivity(new Intent(this, IntentActivity.class)));
+        conversationBoxRedirect.setOnClickListener(v -> startActivity(new Intent(this, ConversationBoxActivity.class)));
+        menuRedirect.setOnClickListener(v -> startActivity(new Intent(this, MenuActivity.class)));
+        dialogueRedirect.setOnClickListener(v -> startActivity(new Intent(this, DialogueActivity.class)));
+        sharedPreferencesRedirect.setOnClickListener(v -> startActivity(new Intent(this, SharedPreferencesActivity.class)));
+        contentProvidersRedirect.setOnClickListener(v -> startActivity(new Intent(this, ContentProviderActivity.class)));
+        phoneComponentRedirect.setOnClickListener(v -> startActivity(new Intent(this, ComponentActivity.class)));
+        listViewRedirect.setOnClickListener(v -> startActivity(new Intent(this, ListViewActivity.class)));
+        dynamicCodeRedirect.setOnClickListener(v -> startActivity(new Intent(this, DynamicCodeActivity.class)));
     }
 }

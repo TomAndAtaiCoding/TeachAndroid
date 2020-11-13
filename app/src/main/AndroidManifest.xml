@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< Updated upstream
 
         <activity android:name=".ComponentActivity" />
         <activity android:name=".ContentProviderActivity" />
@@ -27,7 +28,8 @@
         <activity android:name=".ListViewActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".SharedPreferencesActivity" />
-
+        <activity android:name=".ConversationExplanationActivity"></activity>
+        <activity android:name=".ConversationBoxActivity"></activity>
     </application>
 
 </manifest>

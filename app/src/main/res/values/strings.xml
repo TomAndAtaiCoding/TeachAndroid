@@ -21,9 +21,11 @@
     <string name="button_dynamic_code_redirect_text">dynamic code tutorial</string>
 
     <!-- Layout Tutorial -->
-    <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts. אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן "לעגן" כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
-    <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
-    <string name="text_layouts_intro3_text">בצורה נוחה ויפה מאוד.</string>
+        <!--  -->
+        <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts. אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן לעגן כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
+        <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
+        <string name="text_layouts_intro3_text">בצורה נוחה ויפה מאוד.</string>
+        <string name="button_layouts_intro_next_text">הבא</string>
 
     <!-- Intents Tutorial -->
 

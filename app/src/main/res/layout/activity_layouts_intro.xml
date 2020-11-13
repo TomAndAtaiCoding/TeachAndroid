@@ -8,8 +8,12 @@
 
     <TextView
         android:id="@+id/text_layouts_intro1"
+        android:textAppearance="@style/TextAppearance.TeachApp"
         android:text="@string/text_layouts_intro1_text"
-        android:textColor="@color/black"
+<<<<<<< Updated upstream
+        android:textAppearance="@style/TextColor.TeachApp"
+=======
+>>>>>>> Stashed changes
         android:textSize="24sp"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
@@ -21,8 +25,8 @@
     <TextView
         android:id="@+id/text_layouts_intro2"
         android:text="@string/text_layouts_intro2_text"
+        android:textAppearance="@style/TextColor.TeachApp"
         android:textSize="20sp"
-        android:textColor="@color/black"
         android:layout_width="148dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -34,14 +38,25 @@
     <TextView
         android:id="@+id/text_layouts_intro3"
         android:text="@string/text_layouts_intro3_text"
+        android:textAppearance="@style/TextColor.TeachApp"
         android:textSize="20sp"
-        android:textColor="@color/black"
         android:layout_width="148dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_layouts_intro1" />
+
+    <Button
+        android:id="@+id/button_layouts_intro_next"
+        android:text="@string/button_layouts_intro_next_text"
+        android:textAppearance="@style/TextColor.TeachApp"
+        android:layout_width="345dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

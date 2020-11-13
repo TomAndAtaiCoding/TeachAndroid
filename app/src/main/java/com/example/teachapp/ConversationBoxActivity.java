@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 public class ConversationBoxActivity extends AppCompatActivity {
 
-    //We use a naming convention where m_ signifies a variable is a member of a class not a
+    // We use a naming convention where m_ signifies a variable is a member of a class not a
     // local variable in a function
     Context m_context = this;
 
@@ -25,10 +25,10 @@ public class ConversationBoxActivity extends AppCompatActivity {
 
     // To get each view, we may use the builtin activity method findById, and access the id
     // we set in the XML code using the R.id class.
-    Button m_button = findViewById(R.id.button_submit_conversation);
-    EditText m_edit = findViewById(R.id.edit_text);
-    TextView m_text = findViewById(R.id.text_Output);
-    Switch m_switch = findViewById(R.id.switch_explanation);
+    Button m_button;
+    EditText m_edit;
+    TextView m_text;
+    Switch m_switch;
 
 
 
@@ -38,6 +38,11 @@ public class ConversationBoxActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conversation_box);
+
+        m_button = findViewById(R.id.button_submit_conversation);
+        m_edit = findViewById(R.id.edit_text);
+        m_text = findViewById(R.id.text_Output);
+        m_switch = findViewById(R.id.switch_explanation);
 
         // The following is three versions of the same code, each written a bit differently
         // In a real project, you would, of course, need to write only one of them,
@@ -103,7 +108,7 @@ public class ConversationBoxActivity extends AppCompatActivity {
                 .setOnClickListener(
                         (view) -> ((TextView)findViewById(R.id.text_Output))
                                 .setText(((EditText)findViewById(R.id.edit_text)).getText()));
-        //It is much uglier though - generally try to sue variables.
+        //It is much uglier though - generally try to use variables.
 
 
 

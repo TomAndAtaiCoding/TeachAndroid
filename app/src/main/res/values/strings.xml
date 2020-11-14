@@ -21,9 +21,23 @@
     <string name="button_dynamic_code_redirect_text">dynamic code tutorial</string>
 
     <!-- Layout Tutorial -->
-    <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts. אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן "לעגן" כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
-    <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
-    <string name="text_layouts_intro3_text">בצורה נוחה ויפה מאוד.</string>
+        <!-- Constraint Layout -->
+        <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts (מערכים). אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן לעגן כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
+        <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
+        <string name="text_layouts_intro3_text">בצורה נוחה ויפה מאוד.</string>
+        <string name="button_layouts_intro_next_text">הבא</string>
+
+        <!-- Linear Layout -->
+        <string name="text_layouts_linear1_text">במערך לינארי האובייקטים מסודרים בצורה אנכית או אופקית אחד אחרי השני.</string>
+        <string name="text_layouts_linear2_text">ככה זה נראה כשזה מסודר בצורה אנכית.</string>
+        <string name="text_layouts_linear3_text">אפשר להגדיר לכל אובייקט את הרוחב והגובה, כמו בכל מערך אחר,</string>
+        <string name="text_layouts_linear4_text">אבל האובייקטים תמיד יגיעו אחד אחרי השני בסדר, ולעולם לא יהיו אחד לצד השני.</string>
+        <string name="button_layouts_linear_next_text">הבא</string>
+
+        <!-- Relative Layout -->
+        <string name="text_layouts_relative1_text">מערך יחסי עובד מאוד דומה למערך constraint,</string>
+        <string name="text_layouts_relative2">אבל כל אובייקט מקושר לאובייקט אחר ולא למערך עצמו.</string>
+        <string name="button_layouts_relative_next">חזרה</string>
 
     <!-- Intents Tutorial -->
 

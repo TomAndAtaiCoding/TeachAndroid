@@ -5,26 +5,37 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/linearLayoutLineOne"
+        android:id="@+id/text_layouts_linear1"
+        android:text="@string/text_layouts_linear1_text"
+        android:textSize="18sp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/linearLayoutLineTwo"
+        android:id="@+id/text_layouts_linear2"
+        android:text="@string/text_layouts_linear2_text"
+        android:textSize="18sp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/text_layouts_linear3"
+        android:text="@string/text_layouts_linear3_text"
+        android:textSize="18sp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/text_layouts_linear4"
+        android:text="@string/text_layouts_linear4_text"
+        android:textSize="18sp"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_layouts_linear_next"
+        android:text="@string/button_layouts_linear_next_text"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

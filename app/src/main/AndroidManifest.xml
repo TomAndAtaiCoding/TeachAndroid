@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".LayoutActivity" />
+        <activity android:name=".LayoutLinearActivity" />
+        <activity android:name=".LayoutRelativeActivity" />
         <activity android:name=".ComponentActivity" />
         <activity android:name=".ContentProviderActivity" />
         <activity android:name=".ConversationBoxActivity" />
@@ -23,7 +26,6 @@
         <activity android:name=".DialogueActivity" />
         <activity android:name=".DynamicCodeActivity" />
         <activity android:name=".IntentActivity" />
-        <activity android:name=".LayoutActivity" />
         <activity android:name=".ListViewActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".SharedPreferencesActivity" />

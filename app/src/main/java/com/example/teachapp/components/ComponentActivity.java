@@ -1,8 +1,10 @@
-package com.example.teachapp;
+package com.example.teachapp.components;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.teachapp.R;
 
 public class ComponentActivity extends AppCompatActivity {
 

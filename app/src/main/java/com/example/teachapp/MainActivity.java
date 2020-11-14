@@ -6,6 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import com.example.teachapp.components.ComponentActivity;
+import com.example.teachapp.conversation.ConversationBoxActivity;
+import com.example.teachapp.dialogues.DialogueActivity;
+import com.example.teachapp.dynamic.DynamicCodeActivity;
+import com.example.teachapp.intents.IntentActivity;
+import com.example.teachapp.layouts.LayoutActivity;
+import com.example.teachapp.listview.ListViewActivity;
+import com.example.teachapp.menus.MenuActivity;
+import com.example.teachapp.preferences.SharedPreferencesActivity;
+import com.example.teachapp.providers.ContentProviderActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

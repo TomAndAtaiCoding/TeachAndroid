@@ -16,19 +16,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LayoutActivity" />
-        <activity android:name=".LayoutLinearActivity" />
-        <activity android:name=".LayoutRelativeActivity" />
-        <activity android:name=".ComponentActivity" />
-        <activity android:name=".ContentProviderActivity" />
-        <activity android:name=".ConversationBoxActivity" />
-        <activity android:name=".ConversationExplanationActivity" />
-        <activity android:name=".DialogueActivity" />
-        <activity android:name=".DynamicCodeActivity" />
-        <activity android:name=".IntentActivity" />
-        <activity android:name=".ListViewActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".SharedPreferencesActivity" />
+        <activity android:name=".layouts.LayoutActivity" />
+        <activity android:name=".layouts.LayoutLinearActivity" />
+        <activity android:name=".layouts.LayoutRelativeActivity" />
+        <activity android:name=".components.ComponentActivity" />
+        <activity android:name=".providers.ContentProviderActivity" />
+        <activity android:name=".conversation.ConversationBoxActivity" />
+        <activity android:name=".conversation.ConversationExplanationActivity" />
+        <activity android:name=".dialogues.DialogueActivity" />
+        <activity android:name=".dynamic.DynamicCodeActivity" />
+        <activity android:name=".intents.IntentActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".menus.MenuActivity" />
+        <activity android:name=".preferences.SharedPreferencesActivity" />
 
     </application>
 

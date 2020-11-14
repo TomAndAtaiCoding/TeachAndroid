@@ -1,8 +1,10 @@
-package com.example.teachapp;
+package com.example.teachapp.dialogues;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.teachapp.R;
 
 public class DialogueActivity extends AppCompatActivity {
 

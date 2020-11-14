@@ -1,4 +1,4 @@
-package com.example.teachapp;
+package com.example.teachapp.conversation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
+
+import com.example.teachapp.R;
 
 public class ConversationBoxActivity extends AppCompatActivity {
 

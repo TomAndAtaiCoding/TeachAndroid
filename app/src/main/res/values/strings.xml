@@ -40,12 +40,22 @@
         <string name="button_layouts_relative_next">חזרה</string>
 
     <!-- Intents Tutorial -->
+    <string name="button_intents_email_text">send an email</string>
+    <string name="button_intents_sms_text">send an sms</string>
+    <string name="button_intents_phone_text">call someone</string>
+    <string name="button_intents_web_text">open a website</string>
+    <string name="button_intents_yt_text">youtube</string>
+
 
     <!-- Conversation Box Tutorial -->
 
     <!-- Menu Tutorial -->
 
     <!-- Dialogue Tutorial -->
+    <string name="button_dialogue_alert_text">alert</string>
+    <string name="button_dialogue_date_text">date</string>
+    <string name="button_dialogue_time_text">time</string>
+    <string name="text_dialogue_output_text">you chose:</string>
 
     <!-- Shared Preferences Tutorial -->
 

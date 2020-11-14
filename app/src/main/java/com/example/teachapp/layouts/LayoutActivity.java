@@ -1,10 +1,12 @@
-package com.example.teachapp;
+package com.example.teachapp.layouts;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.teachapp.R;
 
 public class LayoutActivity extends AppCompatActivity {
 

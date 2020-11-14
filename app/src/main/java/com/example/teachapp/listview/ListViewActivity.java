@@ -1,4 +1,4 @@
-package com.example.teachapp;
+package com.example.teachapp.listview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+
+import com.example.teachapp.R;
 
 public class ListViewActivity extends AppCompatActivity {
 

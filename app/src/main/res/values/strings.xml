@@ -21,6 +21,7 @@
     <string name="button_dynamic_code_redirect_text">dynamic code tutorial</string>
 
     <!-- Layout Tutorial -->
+        
         <!-- Constraint Layout -->
         <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts (מערכים). אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן לעגן כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
         <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
@@ -45,7 +46,19 @@
     <string name="button_intents_phone_text">call someone</string>
     <string name="button_intents_web_text">open a website</string>
     <string name="button_intents_yt_text">youtube</string>
+        
+        <!-- Email Intent -->
+        <string name="edit_intents_email_sender_hint">From:</string>
+        <string name="edit_intents_email_recipient_hint">To:</string>
+        <string name="edit_intents_email_subject_hint">Subject</string>
+        <string name="edit_intents_email_message_hint">Message</string>
+        <string name="button_intents_email_cancel_text">cancel</string>
+        <string name="button_intents_email_send_text">send</string>
 
+        <!-- SMS Intent -->
+        <string name="edit_intents_sms_recipient_hint">To:</string>
+        <string name="edit_intents_sms_message_hint">Message</string>
+        <string name="button_intents_sms_send_text">send</string>
 
     <!-- Conversation Box Tutorial -->
 

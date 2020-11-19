@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NOTICE - menus should have a separate folder within the resources directory.
+Once you create such a folder, android studio will give you an option to
+create a new menu file in the folder's context menu.-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/meni_blue"
+        android:title="@string/meni_blue_text" />
+
+    <item
+        android:id="@+id/meni_green"
+        android:title="@string/meni_green_text" />
+
+    <item
+        android:id="@+id/meni_red"
+        android:title="@string/meni_red_text" />
+</menu>

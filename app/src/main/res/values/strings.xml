@@ -75,6 +75,21 @@
     <!-- Conversation Box Tutorial -->
 
     <!-- Menu Tutorial -->
+        <!--Textbox prompt-->
+        <string name="text_menu_prompt_text">השתמשו בתפריט מעלה כדי לשנות את תוכן הטקסט, או לחצו עליי לחיצה ארוכה כדי לשנות את הצבע שלו.</string>
+
+        <!--Options Menu options-->
+        <string name="meni_example_option_3_text">"Hello World"</string>
+        <string name="meni_example_option_2_text">Forty Two!</string>
+        <string name="meni_example_option_1_text">TEST</string>
+
+        <!--Context Menu Options-->
+        <string name="meni_blue_text">Blue</string>
+        <string name="meni_green_text">Green</string>
+        <string name="meni_red_text">Red</string>
+
+
+
 
     <!-- Dialogue Tutorial -->
     <string name="button_dialogue_alert_text">alert</string>
@@ -89,8 +104,8 @@
     <!-- Phone Components Tutorial -->
 
     <!-- List View Tutorial -->
-    <string name="listViewInputPrompt">value 1, value 2, value3…</string>
-    <string name="listViewButtonText">Update List</string>
+    <string name="text_listview_input_prompt_text">value 1, value 2, value3…</string>
+    <string name="button_listview_submit_text">Update List</string>
 
     <!-- Dynamic Code Tutorial -->
 

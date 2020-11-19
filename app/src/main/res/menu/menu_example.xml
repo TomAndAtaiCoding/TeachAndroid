@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NOTICE - menus should have a separate folder within the resources directory.
+Once you create such a folder, android studio will give you an option to
+create a new menu file in the folder's context menu.-->
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/meni_option_1"
+        android:title="@string/meni_example_option_3_text" />
+
+    <item android:title="@string/meni_example_option_2_text"
+        android:id="@+id/meni_option_2"/>
+
+    <item android:title="@string/meni_example_option_1_text"
+        android:id="@+id/meni_option_3"/>
+
+    <group />
+</menu>

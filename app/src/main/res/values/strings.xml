@@ -58,7 +58,19 @@
         <!-- SMS Intent -->
         <string name="edit_intents_sms_recipient_hint">To:</string>
         <string name="edit_intents_sms_message_hint">Message</string>
-        <string name="button_intents_sms_send_text">send</string>
+        <string name="button_intents_sms_send_text">send-</string>
+
+        <!-- Phone Intent -->
+        <string name="edit_intents_phone_number_hint">Phone Number:</string>
+        <string name="button_intents_phone_call_text">Call</string>
+
+        <!-- Web Intent -->
+        <string name="radio_intents_web_google_text">Google</string>
+        <string name="radio_intents_web_stack_overflow_text">Stack Overflow</string>
+        <string name="radio_intents_web_github_text">Github</string>
+        <string name="radio_intents_web_proof_text">The Proof Is Trivial</string>
+        <string name="radio_intents_web_bing_text">Bing</string>
+        <string name="button_intents_web_launch_text">launch!</string>
 
     <!-- Conversation Box Tutorial -->
 

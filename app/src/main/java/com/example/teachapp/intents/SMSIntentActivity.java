@@ -24,7 +24,7 @@ public class SMSIntentActivity extends AppCompatActivity {
             Intent smsIntent = new Intent(Intent.ACTION_SENDTO);
             smsIntent.setData(Uri.parse("smsto:" + smsRecipient.getText().toString()));
             smsIntent.putExtra("sms_body", smsMessage.getText().toString());
-            SMSIntentActivity.this.startActivity(smsIntent);
+            startActivity(smsIntent);
         });
     }
 }

@@ -1,6 +1,11 @@
 package com.example.teachapp.intents;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.teachapp.R;
@@ -10,5 +15,14 @@ public class PhoneIntentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intents_phone);
+
+        final EditText phoneNumber = findViewById(R.id.edit_intents_phone_number);
+        final Button phoneCall = findViewById(R.id.button_intents_phone_call);
+
+        phoneCall.setOnClickListener(v -> {
+            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            callIntent.setData(Uri.parse("tel:" + phoneNumber.getText().toString()));
+            startActivity(callIntent);
+        });
     }
 }

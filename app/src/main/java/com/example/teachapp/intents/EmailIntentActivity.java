@@ -31,7 +31,7 @@ public class EmailIntentActivity extends AppCompatActivity {
                     + "&subject=" + Uri.encode(emailSubject.getText().toString())
                     + "&body=" + Uri.encode(emailBody.getText().toString());
             email.setData(Uri.parse(emailContent));
-            EmailIntentActivity.this.startActivity(email);
+            startActivity(email);
         });
     }
 }

@@ -39,6 +39,7 @@ public class DialogueActivity extends AppCompatActivity {
         final Button dialogueTime = findViewById(R.id.button_dialogue_time);
         final TextView output = findViewById(R.id.text_dialogue_output);
         final Calendar calendar = Calendar.getInstance();
+        calendar.set(2020-1900, 11, 20);
 
 
         dialogueAlert.setOnClickListener(v -> {
@@ -53,7 +54,6 @@ public class DialogueActivity extends AppCompatActivity {
             alertBuilder.setNeutralButton("WHAT?", (dialog, which) -> {
                 output.setText("huh?");
             });
-            alertBuilder.setIcon(R.drawable.ic_outline_question_answer_24);
             AlertDialog alertDialog = alertBuilder.create();
             alertDialog.show();
         });
@@ -65,8 +65,7 @@ public class DialogueActivity extends AppCompatActivity {
                     chosenDay = dayOfMonth;
                     calendar.set(chosenYear, chosenMonth, chosenDay);
                     output.setText(DateFormat.format("dd/MM/yyyy", calendar));
-                }, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
-                datePicker.updateDate(chosenYear, chosenMonth, chosenDay);
+                }, calendar.get(Calendar.YEAR) + 1900, calendar.get(Calendar.MONTH) - 1, calendar.get(Calendar.DAY_OF_MONTH));
                 datePicker.show();
         });
 

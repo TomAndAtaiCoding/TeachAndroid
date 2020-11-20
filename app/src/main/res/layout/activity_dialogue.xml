@@ -38,13 +38,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_dialogue_output"
-        android:layout_width="344dp"
+        android:id="@+id/text_dialogue_info"
+        android:text="@string/text_dialogue_info_text"
+        android:textSize="18sp"
+        android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:text="@string/text_dialogue_output_text"
-        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_dialogue_alert" />
+
+    <TextView
+        android:id="@+id/text_dialogue_output"
+        android:text="@string/text_dialogue_output_text"
+        android:textSize="18sp"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/button_dialogue_alert"
+        app:layout_constraintStart_toEndOf="@id/text_dialogue_info" />
 </androidx.constraintlayout.widget.ConstraintLayout>

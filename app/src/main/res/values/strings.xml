@@ -75,6 +75,7 @@
     <!-- Conversation Box Tutorial -->
 
     <!-- Menu Tutorial -->
+
         <!--Textbox prompt-->
         <string name="text_menu_prompt_text">השתמשו בתפריט מעלה כדי לשנות את תוכן הטקסט, או לחצו עליי לחיצה ארוכה כדי לשנות את הצבע שלו.</string>
 
@@ -95,7 +96,8 @@
     <string name="button_dialogue_alert_text">alert</string>
     <string name="button_dialogue_date_text">date</string>
     <string name="button_dialogue_time_text">time</string>
-    <string name="text_dialogue_output_text">you chose:</string>
+    <string name="text_dialogue_info_text">you chose:</string>
+    <string name="text_dialogue_output_text"></string>
 
     <!-- Shared Preferences Tutorial -->
 

@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TeachApp">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +34,6 @@
         <activity android:name=".listview.ListViewActivity" />
         <activity android:name=".menus.MenuActivity" />
         <activity android:name=".preferences.SharedPreferencesActivity" />
-
     </application>
 
     <uses-permission android:name="android.permission.CALL_PHONE" />

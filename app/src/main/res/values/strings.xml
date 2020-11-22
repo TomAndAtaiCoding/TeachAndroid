@@ -105,6 +105,12 @@
         <string name="edit_providers_new_event_location_hint">Location:</string>
         <string name="button_providers_new_event_save_text">save event</string>
 
+        <!-- New Contact -->
+        <string name="edit_providers_new_contact_name_hint">Name:</string>
+        <string name="edit_providers_new_contact_email_hint">Email:</string>
+        <string name="edit_providers_new_contact_phone_hint">Phone:</string>
+        <string name="button_providers_new_contact_save_text">save contact</string>
+
     <!-- Phone Components Tutorial -->
 
     <!-- List View Tutorial -->

@@ -7,10 +7,9 @@
     <EditText
         android:id="@+id/edit_intents_sms_recipient"
         android:hint="@string/edit_intents_sms_recipient_hint"
-        android:layout_width="356dp"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -18,10 +17,9 @@
     <EditText
         android:id="@+id/edit_intents_sms_message"
         android:hint="@string/edit_intents_sms_message_hint"
-        android:layout_width="356dp"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
         app:layout_constraintTop_toBottomOf="@id/edit_intents_sms_recipient"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

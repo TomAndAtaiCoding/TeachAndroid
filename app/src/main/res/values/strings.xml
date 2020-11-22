@@ -1,11 +1,9 @@
 <resources>
     <string name="app_name">Teach App!</string>
-    <string name="title_activity_main">MainActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
     -->
-    <string name="hello_world">Hello Square World!</string>
 
     <!-- Main Page -->
     <string name="text_main_intro_text">[insert description here]</string> <!-- text shown at the start of the application, in the main menu. -->
@@ -21,7 +19,6 @@
     <string name="button_dynamic_code_redirect_text">dynamic code tutorial</string>
 
     <!-- Layout Tutorial -->
-        
         <!-- Constraint Layout -->
         <string name="text_layouts_intro1_text">באנדרואיד, יש כמה סוגים של layouts (מערכים). אחד מהכי פופולריים הוא constraint layout. בסוג זה ניתן לעגן כל אובייקט לאובייקט אחר, כולל לאובייקט ההורה.</string>
         <string name="text_layouts_intro2_text">כך אפשר לסדר אובייקטים שונים</string>
@@ -46,10 +43,9 @@
     <string name="button_intents_phone_text">call someone</string>
     <string name="button_intents_web_text">open a website</string>
     <string name="button_intents_yt_text">youtube</string>
-        
+
         <!-- Email Intent -->
-        <string name="edit_intents_email_sender_hint">From:</string>
-        <string name="edit_intents_email_recipient_hint">To:</string>
+    <string name="edit_intents_email_recipient_hint">To:</string>
         <string name="edit_intents_email_subject_hint">Subject</string>
         <string name="edit_intents_email_message_hint">Message</string>
         <string name="button_intents_email_cancel_text">cancel</string>
@@ -75,7 +71,6 @@
     <!-- Conversation Box Tutorial -->
 
     <!-- Menu Tutorial -->
-
         <!--Textbox prompt-->
         <string name="text_menu_prompt_text">השתמשו בתפריט מעלה כדי לשנות את תוכן הטקסט, או לחצו עליי לחיצה ארוכה כדי לשנות את הצבע שלו.</string>
 
@@ -89,9 +84,6 @@
         <string name="meni_green_text">Green</string>
         <string name="meni_red_text">Red</string>
 
-
-
-
     <!-- Dialogue Tutorial -->
     <string name="button_dialogue_alert_text">alert</string>
     <string name="button_dialogue_date_text">date</string>
@@ -102,6 +94,16 @@
     <!-- Shared Preferences Tutorial -->
 
     <!-- Content Providers Tutorial -->
+    <string name="button_providers_new_event_text">new event</string>
+    <string name="button_providers_new_contact_text">new contact</string>
+
+        <!-- New Event -->
+        <string name="edit_providers_new_event_title_hint">Title:</string>
+        <string name="edit_providers_new_event_description_hint">Description:</string>
+        <string name="button_providers_new_event_start_text">starting time</string>
+        <string name="button_providers_new_event_end_text">ending time</string>
+        <string name="edit_providers_new_event_location_hint">Location:</string>
+        <string name="button_providers_new_event_save_text">save event</string>
 
     <!-- Phone Components Tutorial -->
 

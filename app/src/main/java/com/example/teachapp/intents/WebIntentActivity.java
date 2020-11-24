@@ -17,12 +17,16 @@ public class WebIntentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intents_web);
 
+        // gets the chosen website to launch.
         final RadioGroup webChoice = findViewById(R.id.radiogroup_intents_web);
+        // button that launches the website.
         final Button webLaunch = findViewById(R.id.button_intents_web_launch);
 
         webLaunch.setOnClickListener(v -> {
+            // gets the chosen radio button.
             RadioButton checkedRadio = findViewById(webChoice.getCheckedRadioButtonId());
             String url = "";
+            // checks which button was chosen and sets the url accordingly.
             switch (checkedRadio.getText().toString()) {
                 case "Google":
                     url = "https://bing.com";
@@ -42,6 +46,7 @@ public class WebIntentActivity extends AppCompatActivity {
                 default:
                     url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
             }
+            // creates a new intent and sets its data to launch the correct website.
             Intent webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(webIntent);
         });

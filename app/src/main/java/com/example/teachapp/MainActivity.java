@@ -24,15 +24,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // sends the user to the layout tutorial starting page.
         final Button layoutRedirect = findViewById(R.id.button_layout_redirect);
+        // sends the user to the intent tutorial starting page.
         final Button intentRedirect = findViewById(R.id.button_intent_redirect);
+        // sends the user to the conversation box tutorial page.
         final Button conversationBoxRedirect = findViewById(R.id.button_conversation_box_redirect);
+        // sends the user to the menu tutorial page.
         final Button menuRedirect = findViewById(R.id.button_menu_redirect);
+        // sends the user to the dialogue tutorial page.
         final Button dialogueRedirect = findViewById(R.id.button_dialogue_redirect);
+        // sends the user to the shared preferences tutorial page.
         final Button sharedPreferencesRedirect = findViewById(R.id.button_shared_preferences_redirect);
+        // sends the user to the content providers tutorial starting page.
         final Button contentProvidersRedirect = findViewById(R.id.button_content_providers_redirect);
+        // sends the user to the phone components tutorial starting page.
         final Button phoneComponentRedirect = findViewById(R.id.button_phone_components_redirect);
+        // sends the user to the list view tutorial page.
         final Button listViewRedirect = findViewById(R.id.button_list_view_redirect);
+        // sends tht user to the dynamic code tutorial page.
         final Button dynamicCodeRedirect = findViewById(R.id.button_dynamic_code_redirect);
 
         layoutRedirect.setOnClickListener(v -> startActivity(new Intent(this, LayoutActivity.class)));

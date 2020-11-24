@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- the title of the event -->
     <EditText
         android:id="@+id/edit_providers_new_event_title"
         android:hint="@string/edit_providers_new_event_title_hint"
@@ -15,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- the description of the event -->
     <EditText
         android:id="@+id/edit_providers_new_event_description"
         android:hint="@string/edit_providers_new_event_description_hint"

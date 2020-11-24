@@ -16,11 +16,15 @@ public class PhoneIntentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intents_phone);
 
+        // gets the number to call.
         final EditText phoneNumber = findViewById(R.id.edit_intents_phone_number);
+        // button that calls the selected number.
         final Button phoneCall = findViewById(R.id.button_intents_phone_call);
 
         phoneCall.setOnClickListener(v -> {
+            // creates a new intent that calls.
             Intent callIntent = new Intent(Intent.ACTION_CALL);
+            // sets intent data to match the selected phone number.
             callIntent.setData(Uri.parse("tel:" + phoneNumber.getText().toString()));
             startActivity(callIntent);
         });

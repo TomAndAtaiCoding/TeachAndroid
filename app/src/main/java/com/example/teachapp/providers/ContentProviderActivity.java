@@ -15,7 +15,9 @@ public class ContentProviderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_providers);
 
+        // button that sends the user to create a new event.
         final Button newEvent = findViewById(R.id.button_providers_new_event);
+        // button that sends the user to create a new contact.
         final Button newContact = findViewById(R.id.button_providers_new_contact);
 
         newEvent.setOnClickListener(v -> {startActivity(new Intent(this, ProvidersNewEventActivity.class));});

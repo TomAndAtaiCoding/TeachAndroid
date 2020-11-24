@@ -1,11 +1,9 @@
 <resources>
     <string name="app_name">Teach App!</string>
-    <string name="title_activity_main">MainActivity</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
     -->
-    <string name="hello_world">Hello Square World!</string>
 
     <!-- Main Page -->
     <string name="text_main_intro_text">[insert description here]</string> <!-- text shown at the start of the application, in the main menu. -->
@@ -46,6 +44,29 @@
     <string name="button_intents_web_text">open a website</string>
     <string name="button_intents_yt_text">youtube</string>
 
+        <!-- Email Intent -->
+    <string name="edit_intents_email_recipient_hint">To:</string>
+        <string name="edit_intents_email_subject_hint">Subject</string>
+        <string name="edit_intents_email_message_hint">Message</string>
+        <string name="button_intents_email_cancel_text">cancel</string>
+        <string name="button_intents_email_send_text">send</string>
+
+        <!-- SMS Intent -->
+        <string name="edit_intents_sms_recipient_hint">To:</string>
+        <string name="edit_intents_sms_message_hint">Message</string>
+        <string name="button_intents_sms_send_text">send-</string>
+
+        <!-- Phone Intent -->
+        <string name="edit_intents_phone_number_hint">Phone Number:</string>
+        <string name="button_intents_phone_call_text">Call</string>
+
+        <!-- Web Intent -->
+        <string name="radio_intents_web_google_text">Google</string>
+        <string name="radio_intents_web_stack_overflow_text">Stack Overflow</string>
+        <string name="radio_intents_web_github_text">Github</string>
+        <string name="radio_intents_web_proof_text">The Proof Is Trivial</string>
+        <string name="radio_intents_web_bing_text">Bing</string>
+        <string name="button_intents_web_launch_text">launch!</string>
 
     <!-- Conversation Box Tutorial -->
 
@@ -63,14 +84,12 @@
         <string name="meni_green_text">Green</string>
         <string name="meni_red_text">Red</string>
 
-
-
-
     <!-- Dialogue Tutorial -->
     <string name="button_dialogue_alert_text">alert</string>
     <string name="button_dialogue_date_text">date</string>
     <string name="button_dialogue_time_text">time</string>
-    <string name="text_dialogue_output_text">you chose:</string>
+    <string name="text_dialogue_info_text">you chose:</string>
+    <string name="text_dialogue_output_text"></string>
 
     <!-- Shared Preferences Tutorial -->
         <!--Radio Options -->
@@ -90,6 +109,22 @@
 
 
     <!-- Content Providers Tutorial -->
+    <string name="button_providers_new_event_text">new event</string>
+    <string name="button_providers_new_contact_text">new contact</string>
+
+        <!-- New Event -->
+        <string name="edit_providers_new_event_title_hint">Title:</string>
+        <string name="edit_providers_new_event_description_hint">Description:</string>
+        <string name="button_providers_new_event_start_text">starting time</string>
+        <string name="button_providers_new_event_end_text">ending time</string>
+        <string name="edit_providers_new_event_location_hint">Location:</string>
+        <string name="button_providers_new_event_save_text">save event</string>
+
+        <!-- New Contact -->
+        <string name="edit_providers_new_contact_name_hint">Name:</string>
+        <string name="edit_providers_new_contact_email_hint">Email:</string>
+        <string name="edit_providers_new_contact_phone_hint">Phone:</string>
+        <string name="button_providers_new_contact_save_text">save contact</string>
 
     <!-- Phone Components Tutorial -->
         <!--Buttons Text-->

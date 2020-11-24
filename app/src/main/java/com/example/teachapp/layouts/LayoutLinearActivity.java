@@ -15,6 +15,7 @@ public class LayoutLinearActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layouts_linear);
 
+        // button that sends the user to the next layout tutorial page.
         final Button layoutNextRedirect = findViewById(R.id.button_layouts_linear_next);
 
         layoutNextRedirect.setOnClickListener(v -> startActivity(new Intent(this, LayoutRelativeActivity.class)));

@@ -9,10 +9,9 @@
 
     <EditText
         android:id="@+id/edit_list"
-        android:layout_width="364dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="76dp"
-        android:ems="10"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="256dp"
         android:inputType="textPersonName"
         android:hint="@string/text_listview_input_prompt_hint"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,12 +21,11 @@
 
     <Button
         android:id="@+id/button_submit_list"
-        android:layout_width="298dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="45dp"
         android:text="@string/button_listview_submit_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_list" />
 
@@ -41,11 +39,10 @@
     -->
     <ListView
         android:id="@+id/list_example"
-        android:layout_width="335dp"
-        android:layout_height="307dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_submit_list" />
 

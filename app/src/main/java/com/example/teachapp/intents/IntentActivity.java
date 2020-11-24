@@ -17,10 +17,15 @@ public class IntentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intents_main);
 
+        // button that sends the user to the email intent activity.
         final Button emailIntentRedirect = findViewById(R.id.button_intents_email);
+        // button that sends the user to the sms intent activity.
         final Button SMSIntentRedirect = findViewById(R.id.button_intents_sms);
+        // button that sends the user to the phone intent activity.
         final Button phoneIntentRedirect = findViewById(R.id.button_intents_phone);
+        // button that sends the user to the web intent activity.
         final Button webIntentRedirect = findViewById(R.id.button_intents_web);
+        // button that starts a web intent, directed to youtube.
         final Button openYT = findViewById(R.id.button_intents_yt);
 
         emailIntentRedirect.setOnClickListener(v -> startActivity(new Intent(this, EmailIntentActivity.class)));
@@ -31,8 +36,9 @@ public class IntentActivity extends AppCompatActivity {
         openYT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // creates the intent with the type and what it's supposed to open.
                 Intent ytIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
-                IntentActivity.this.startActivity(ytIntent);
+                startActivity(ytIntent);
             }
         });
     }

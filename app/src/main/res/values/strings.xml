@@ -92,9 +92,19 @@
     <!-- Content Providers Tutorial -->
 
     <!-- Phone Components Tutorial -->
+        <!--Buttons Text-->
+        <string name="button_comp_gps">Where am I?</string>
+        <string name="button_comp_camera">Take a Picture</string>
+        <string name="button_comp_media">Open media</string>
+
+        <!--Text Prompts-->
+
+
+        <!--Location Default-->
+        <string name="text_pc_location_error_text">Unknown</string>
 
     <!-- List View Tutorial -->
-    <string name="text_listview_input_prompt_text">value 1, value 2, value3…</string>
+    <string name="text_listview_input_prompt_hint">value 1, value 2, value3…</string>
     <string name="button_listview_submit_text">Update List</string>
 
     <!-- Dynamic Code Tutorial -->

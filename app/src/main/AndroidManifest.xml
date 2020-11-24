@@ -43,10 +43,6 @@
         <activity android:name=".components.ComponentActivity" />
         <activity android:name=".listview.ListViewActivity" />
         <activity android:name=".dynamic.DynamicCodeActivity" />
-        <activity android:name=".intents.IntentActivity" />
-        <activity android:name=".listview.ListViewActivity" />
-        <activity android:name=".menus.MenuActivity" />
-        <activity android:name=".preferences.SharedPreferencesActivity" />
     </application>
 
     <!-- Permissions -->

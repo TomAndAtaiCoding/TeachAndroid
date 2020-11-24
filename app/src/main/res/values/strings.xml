@@ -73,6 +73,21 @@
     <string name="text_dialogue_output_text">you chose:</string>
 
     <!-- Shared Preferences Tutorial -->
+        <!--Radio Options -->
+        <string name="radio_sp_option_1">42</string>
+        <string name="radio_sp_option_2">42</string>
+        <string name="radio_sp_option_3">42</string>
+
+        <!--Prompts-->
+        <string name="text_sp_radio_prompt">What is your favorite number?</string>
+        <string name="check_sp_boolean_prompt">ARE YOU HAPPY?</string>
+        <string name="text_sp_number_prompt_hint">How old are you?</string>
+        <string name="text_sp_string_prompt_hint">Your favorite type of sock??</string>
+
+
+    <!--Button-->
+    <string name="button_sp_save">Save</string>
+
 
     <!-- Content Providers Tutorial -->
 

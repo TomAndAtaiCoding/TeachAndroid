@@ -16,10 +16,10 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".layouts.LayoutActivity" />
         <activity android:name=".layouts.LayoutLinearActivity" />
         <activity android:name=".layouts.LayoutRelativeActivity" />
@@ -33,7 +33,6 @@
         <activity android:name=".listview.ListViewActivity" />
         <activity android:name=".menus.MenuActivity" />
         <activity android:name=".preferences.SharedPreferencesActivity" />
-
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.example.teachapp.conversation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +18,7 @@ public class ConversationBoxActivity extends AppCompatActivity {
 
     // We use a naming convention where m_ signifies a variable is a member of a class not a
     // local variable in a function
-    Context m_context = this;
+    private final Context m_context = this;
 
     // To get the objects for each view:
     //  Use the builtin Activity method findViewById to get the basic view object:
@@ -27,14 +28,15 @@ public class ConversationBoxActivity extends AppCompatActivity {
 
     // To get each view, we may use the builtin activity method findById, and access the id
     // we set in the XML code using the R.id class.
-    Button m_button;
-    EditText m_edit;
-    TextView m_text;
-    Switch m_switch;
+    private Button m_button;
+    private EditText m_edit;
+    private TextView m_text;
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
+    private Switch m_switch;
 
 
 
-    // On create runs when the activity is fiest created. We can use it to configure buttons, views,
+    // On create runs when the activity is first created. We can use it to configure buttons, views,
     // And so on.
     @Override
     protected void onCreate(Bundle savedInstanceState) {

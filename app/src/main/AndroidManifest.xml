@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.teachapp">
 
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <uses-feature android:name="android.hardware.type.watch" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -13,18 +13,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TeachApp">
-        <activity android:name=".MainActivity"></activity>
 
-        <uses-library
-            android:name="com.google.android.wearable"
-            android:required="true" />
-        <!--
-               Set to true if your app is Standalone, that is, it does not require the handheld
-               app to run.
-        -->
-        <meta-data
-            android:name="com.google.android.wearable.standalone"
-            android:value="true" />
+        <!-- Filtered Activities -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- No Filter -->
+        <activity android:name=".layouts.LayoutActivity" />
+        <activity android:name=".layouts.LayoutLinearActivity" />
+        <activity android:name=".layouts.LayoutRelativeActivity" />
+        <activity android:name=".intents.IntentActivity" />
+        <activity android:name=".intents.EmailIntentActivity" />
+        <activity android:name=".intents.SMSIntentActivity" />
+        <activity android:name=".intents.PhoneIntentActivity" />
+        <activity android:name=".intents.WebIntentActivity" />
+        <activity android:name=".conversation.ConversationBoxActivity" />
+        <activity android:name=".conversation.ConversationExplanationActivity" />
+        <activity android:name=".menus.MenuActivity" />
+        <activity android:name=".dialogues.DialogueActivity" />
+        <activity android:name=".preferences.SharedPreferencesActivity" />
+        <activity android:name=".providers.ContentProviderActivity" />
+        <activity android:name=".providers.ProvidersNewEventActivity" />
+        <activity android:name=".providers.ProvidersNewContactActivity" />
+        <activity android:name=".components.ComponentActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".dynamic.DynamicCodeActivity" />
+        <activity android:name=".intents.IntentActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".menus.MenuActivity" />
+        <activity android:name=".preferences.SharedPreferencesActivity" />
     </application>
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
 </manifest>

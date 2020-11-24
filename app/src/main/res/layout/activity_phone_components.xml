@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_comp_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_comp_gps" />
+
+    <TextView
+        android:id="@+id/text_comp_gps"
+        android:layout_width="match_parent"
+        android:layout_height="110dp" />
+
+    <Button
+        android:id="@+id/button_comp_camera_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_comp_camera" />
+
+    <ImageView
+        android:id="@+id/image_comp_camera"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/button_comp_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_comp_media" />
+
+    <ImageView
+        android:id="@+id/image_comp_media"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+</LinearLayout>

@@ -37,6 +37,11 @@
         <string name="text_layouts_relative2">אבל כל אובייקט מקושר לאובייקט אחר ולא למערך עצמו.</string>
         <string name="button_layouts_relative_next">חזרה</string>
 
+    <!--Conversation Tutorial-->
+    <string name="edit_conv_input_hint">Input</string>
+    <string name="button_conv_update_text">Change</string>
+    <string name="text_conv_output_text">Output</string>
+
     <!-- Intents Tutorial -->
     <string name="button_intents_email_text">send an email</string>
     <string name="button_intents_sms_text">send an sms</string>

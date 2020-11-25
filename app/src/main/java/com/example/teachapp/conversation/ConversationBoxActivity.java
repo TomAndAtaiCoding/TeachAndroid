@@ -31,8 +31,6 @@ public class ConversationBoxActivity extends AppCompatActivity {
     private Button m_button;
     private EditText m_edit;
     private TextView m_text;
-    @SuppressLint("UseSwitchCompatOrMaterialCode")
-    private Switch m_switch;
 
 
 
@@ -45,8 +43,7 @@ public class ConversationBoxActivity extends AppCompatActivity {
 
         m_button = findViewById(R.id.button_submit_conversation);
         m_edit = findViewById(R.id.edit_text);
-        m_text = findViewById(R.id.text_Output);
-        m_switch = findViewById(R.id.switch_explanation);
+        m_text = findViewById(R.id.text_output);
 
         // The following is three versions of the same code, each written a bit differently
         // In a real project, you would, of course, need to write only one of them,
@@ -77,7 +74,7 @@ public class ConversationBoxActivity extends AppCompatActivity {
 
 
         // Second:
-        // Just a quick fun thing. While anonymous inheritance is fun an much faster than fully
+        // Just a quick fun thing. While anonymous inheritance is fun and much faster than fully
         // creating classes, java (starting from version 8) allows an even quicker shortcut
         // when using interfaces with only one method, called lambda expressions.
         // Specifically, rather than open curly braces {} and writing a full mrthod, we can use
@@ -110,21 +107,13 @@ public class ConversationBoxActivity extends AppCompatActivity {
         // For our final product:
         ((Button)findViewById(R.id.button_submit_conversation))
                 .setOnClickListener(
-                        (view) -> ((TextView)findViewById(R.id.text_Output))
+                        (view) -> ((TextView)findViewById(R.id.text_output))
                                 .setText(((EditText)findViewById(R.id.edit_text)).getText()));
         //It is much uglier though - generally try to use variables.
 
 
 
 
-        // This is the product-code switch. Not really covered in this lesson - but I bet you
-        // get the gist!
-        findViewById(R.id.switch_explanation).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(m_context, ConversationExplanationActivity.class));
-            }
-        });
     }
 
 }

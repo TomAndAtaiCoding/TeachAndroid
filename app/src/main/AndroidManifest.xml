@@ -33,7 +33,6 @@
         <activity android:name=".intents.PhoneIntentActivity" />
         <activity android:name=".intents.WebIntentActivity" />
         <activity android:name=".conversation.ConversationBoxActivity" />
-        <activity android:name=".conversation.ConversationExplanationActivity" />
         <activity android:name=".menus.MenuActivity" />
         <activity android:name=".dialogues.DialogueActivity" />
         <activity android:name=".preferences.SharedPreferencesActivity" />
@@ -43,10 +42,6 @@
         <activity android:name=".components.ComponentActivity" />
         <activity android:name=".listview.ListViewActivity" />
         <activity android:name=".dynamic.DynamicCodeActivity" />
-        <activity android:name=".intents.IntentActivity" />
-        <activity android:name=".listview.ListViewActivity" />
-        <activity android:name=".menus.MenuActivity" />
-        <activity android:name=".preferences.SharedPreferencesActivity" />
     </application>
 
     <!-- Permissions -->

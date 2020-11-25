@@ -11,17 +11,17 @@
         android:layout_width="151dp"
         android:layout_height="58dp"
         android:layout_marginTop="28dp"
-        android:text="Change"
+        android:text="@string/button_conv_update_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_text" />
 
     <TextView
-        android:id="@+id/text_Output"
+        android:id="@+id/text_output"
         android:layout_width="277dp"
         android:layout_height="125dp"
         android:layout_marginTop="84dp"
-        android:text="Output"
+        android:text="@string/text_conv_output_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_submit_conversation" />
@@ -33,19 +33,11 @@
         android:layout_marginTop="76dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Input"
+        android:hint="@string/edit_conv_input_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
-    <Switch
-        android:id="@+id/switch_explanation"
-        android:layout_width="143dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="16dp"
-        android:text="Product"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

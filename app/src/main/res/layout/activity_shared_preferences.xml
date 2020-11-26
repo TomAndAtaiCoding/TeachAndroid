@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/text_sp_radio_prompt" />
+
+
+    <RadioGroup
+        android:id="@+id/radgr_shared_pref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_42_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_sp_option_1" />
+
+        <RadioButton
+            android:id="@+id/radio_42_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_sp_option_1" />
+
+        <RadioButton
+            android:id="@+id/radio_42_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_sp_option_1" />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/edit_sp_socks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_sp_string_prompt_hint"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <CheckBox
+        android:id="@+id/check_sp_happy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_sp_boolean_prompt" />
+
+
+    <EditText
+        android:id="@+id/edit_sp_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_sp_number_prompt_hint"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button_sp_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sp_save" />
+
+</LinearLayout>

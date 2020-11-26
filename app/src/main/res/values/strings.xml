@@ -6,7 +6,7 @@
     -->
 
     <!-- Main Page -->
-    <string name="text_main_intro_text">[insert description here]</string> <!-- text shown at the start of the application, in the main menu. -->
+    <string name="text_main_intro_text">ברוכים הבאים להדגמה שלנו! בחרו מהנושאים הבאים:</string> <!-- text shown at the start of the application, in the main menu. -->
     <string name="button_layout_redirect_text">layout tutorial</string>
     <string name="button_intent_redirect_text">intents tutorial</string>
     <string name="button_conversation_box_redirect_text">conversation box tutorial </string>

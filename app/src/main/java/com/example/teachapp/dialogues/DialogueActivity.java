@@ -70,36 +70,44 @@ public class DialogueActivity extends AppCompatActivity {
 
         dialogueDate.setOnClickListener(v -> {
             // creates a new date picker dialogue.
-            DatePickerDialog datePicker = new DatePickerDialog(DialogueActivity.this, (view, year, month, dayOfMonth) -> {
-                // saves the year chosen in the dialogue.
-                chosenYear = year;
-                // saves the month chosen in the dialogue.
-                chosenMonth = month;
-                // saves the day of the month chosen in the dialogue.
-                chosenDay = dayOfMonth;
-                // changes the calendar to save the variables.
-                calendar.set(chosenYear, chosenMonth, chosenDay);
-                output.setText(DateFormat.format("dd/MM/yyyy", calendar));
-            },
-            // sets the current date for the date picker, so it'll show today as the default value.
-            calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
+            DatePickerDialog datePicker = new DatePickerDialog(
+                DialogueActivity.this,
+                (view, year, month, dayOfMonth) -> {
+                    // saves the year chosen in the dialogue.
+                    chosenYear = year;
+                    // saves the month chosen in the dialogue.
+                    chosenMonth = month;
+                    // saves the day of the month chosen in the dialogue.
+                    chosenDay = dayOfMonth;
+                    // changes the calendar to save the variables.
+                    calendar.set(chosenYear, chosenMonth, chosenDay);
+                    output.setText(DateFormat.format("dd/MM/yyyy", calendar)); },
+                // sets the current date for the date picker, so it'll show today as the default value.
+                calendar.get(Calendar.YEAR),
+                calendar.get(Calendar.MONTH),
+                calendar.get(Calendar.DAY_OF_MONTH)
+            );
             // shows the dialogue.
             datePicker.show();
         });
 
         dialogueTime.setOnClickListener(v -> {
             // creates a new time picker dialogue.
-            TimePickerDialog timePicker = new TimePickerDialog(DialogueActivity.this, (view, hourOfDay, minute) -> {
-                // saves the hour chosen in the dialogue.
-                chosenHour = hourOfDay;
-                // saves the minute chosen in the dialogue.
-                chosenMinute = minute;
-                // changes the calendar to save the values.
-                calendar.set(0, 0, 0, chosenHour, chosenMinute);
-                output.setText(DateFormat.format("kk:mm", calendar));
-            },
-            // sets a base time for the time picker, so it'll show midnight as the default value.
-            0, 0, true);
+            TimePickerDialog timePicker = new TimePickerDialog(
+                    DialogueActivity.this,
+                    (view, hourOfDay, minute) -> {
+                        // saves the hour chosen in the dialogue.
+                        chosenHour = hourOfDay;
+                        // saves the minute chosen in the dialogue.
+                        chosenMinute = minute;
+                        // changes the calendar to save the values.
+                        calendar.set(0, 0, 0, chosenHour, chosenMinute);
+                        output.setText(DateFormat.format("kk:mm", calendar)); },
+                // sets a base time for the time picker, so it'll show midnight as the default value.
+                0,
+                0,
+                true
+            );
             // saves the chosen time, so the next time the dialogue opens the previous values would be shown.
             timePicker.updateTime(chosenHour, chosenMinute);
             // shows the time picker.

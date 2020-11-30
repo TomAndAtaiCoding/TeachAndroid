@@ -204,6 +204,7 @@ public class ComponentActivity extends AppCompatActivity {
         // If location was available, use it to set our final location parameters.
         double m_latitude;
         double m_longitude;
+
         if (m_locGPS != null) {
             m_locFinal = m_locGPS;
             m_latitude = m_locFinal.getLatitude();

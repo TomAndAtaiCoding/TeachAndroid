@@ -16,10 +16,6 @@ import com.example.teachapp.R;
 
 public class ConversationBoxActivity extends AppCompatActivity {
 
-    // We use a naming convention where m_ signifies a variable is a member of a class not a
-    // local variable in a function
-    private final Context m_context = this;
-
     // To get the objects for each view:
     //  Use the builtin Activity method findViewById to get the basic view object:
     //  as this is the same method for all views, this will only returns a basic common denominator
@@ -77,7 +73,7 @@ public class ConversationBoxActivity extends AppCompatActivity {
         // Just a quick fun thing. While anonymous inheritance is fun and much faster than fully
         // creating classes, java (starting from version 8) allows an even quicker shortcut
         // when using interfaces with only one method, called lambda expressions.
-        // Specifically, rather than open curly braces {} and writing a full mrthod, we can use
+        // Specifically, rather than open curly braces {} and writing a full method, we can use
         // a cleaner, smaller syntax with parenthesis () and arrows: (params) -> result.
         //(params) will be a comma separated list of names, without types (since the types are
         // inferred by the interface method)
